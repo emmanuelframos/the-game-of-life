@@ -44,7 +44,6 @@ public class Board {
 
         //same row
         aliveNeighborCounter += isAlive(rowIndex, colIndex -1)  ? 1 : 0;
-        aliveNeighborCounter += isAlive(rowIndex, colIndex)     ? 1 : 0;
         aliveNeighborCounter += isAlive(rowIndex, colIndex + 1) ? 1 : 0;
 
         //row below
